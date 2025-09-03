@@ -1,23 +1,17 @@
-# ☕ Cafe Management System
+# ☕ Cafe Management System - Node.js & MySQL
 
-A Node.js and MySQL web application for managing cafe operations including orders, menu items, and inventory.
+A complete web-based management system for cafes and restaurants built with Node.js and MySQL.
 
-## ✨ Features
+## 🚀 Features
 
-- **Order Management**: Create and track customer orders
-- **Menu Management**: Add, edit, and categorize menu items
-- **Inventory Tracking**: Monitor ingredient stock levels
-- **User Authentication**: Secure login system for staff
-- **Sales Dashboard**: View order history and reports
+- **Order Management** - Create and track customer orders
+- **Inventory Control** - Manage stock levels and ingredients
+- **Menu Management** - Categorize and update menu items
+- **User Authentication** - Role-based access control
+- **Sales Reporting** - View sales data and analytics
+- **Table Management** - Manage restaurant tables and reservations
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- MySQL (v5.7 or higher)
-
-### Installation
+## 📦 Installation
 
 1. Clone the repository:
 ```bash
@@ -46,17 +40,47 @@ cp .env.example .env
 npm start
 ```
 
-6. Access the application at `http://localhost:3000`
+6. Access at: `http://localhost:3000`
+
+## 🛠️ Tech Stack
+
+- **Backend:** Node.js, Express.js
+- **Database:** MySQL
+- **Template Engine:** EJS
+- **Authentication:** Session-based
+- **Styling:** CSS, Bootstrap
 
 ## 📁 Project Structure
 
 ```
+/
 ├── config/          # Database configuration
-├── controllers/     # Route controllers
-├── models/          # Database models
-├── routes/          # Express routes
-├── middlewares/     # Middlewares
-└── app.js           # Main application file
+├── controllers/     # Business logic
+├── models/          # Data models
+├── routes/          # Application routes
+├── public/          # Static assets
+├── views/           # EJS templates
+├── middleware/      # Custom middleware
+└── utils/           # Utility functions
 ```
 
-**⭐ If you find this project useful, please give it a star!**
+## 🌟 Key Functionalities
+
+- Real-time order processing
+- Inventory management with low stock alerts
+- Employee management system
+- Sales reports and analytics
+- Receipt generation
+- Table occupancy tracking
+
+## 📄 License
+
+MIT License - feel free to use this project for learning or commercial purposes.
+
+## 👤 Developer
+
+**AmirouzZ** - [GitHub Profile](https://github.com/AmirouzZ)
+
+---
+
+**⭐ If you find this project useful, please give it a star on GitHub!**
